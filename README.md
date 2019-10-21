@@ -43,6 +43,8 @@ This Instagram crawl contains how we get data from target followers using the BF
    and then open one by one follower of user target to get data as post caption, hashtag, likes and comment, and ghost followers. then, the program will do the same to get the followers of target's followers
    
    this program crawl the followers with BFS algorithm
+   
+   words in the caption will be processed to be 'Bag of Words'
 
    if the looping finish, the data will be saved to json format
 
